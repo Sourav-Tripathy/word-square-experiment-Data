@@ -1,0 +1,137 @@
+Let's think of some common 3-letter words and see if they can fit together.*`
+
+`*Possible 3-letter words categories to consider:*`
+
+- `*Short, common nouns (CAT, DOG, SUN, SKY, etc.)*`
+- `*Short verbs (RUN, EAT, SEE, GET, etc.)*`
+- `*Adjectives (BIG, RED, HOT, OLD, etc.)*`
+
+`*Let's try to start with a simple word for the first row and column. "TOP" is a common 3-letter word.*`
+
+`*T O P ? ? ? ? ? ?*`
+
+`*Now, the first column must start with 'T'. Let's think of 3-letter words starting with 'T'. "TEN", "TWO", "THE", "TOE", "TEA", "TAP", "TAW", "TAB"... "TAN" ... "TEA" seems simple and common.*`
+
+`*T E A O ? ? P ? ?*`
+
+`*Now the second row must start with 'E' and the third letter needs to form a 3-letter word when combined with the first row's second letter 'O'. So, we are looking for a 3-letter word starting with 'E' and its second letter needs to fit with 'O' to make a 3-letter word.*`
+
+`*Let's brainstorm 3-letter words starting with 'E': "EAT", "EAR", "END", "EGO", "ERA", "ERR", "EYE", "EEL", "EST", "EMS", "ELL", "ELF", "EBB", "EFT", "EGG", "EON", "EVE", "EWE", "EGO"...*`
+
+`*Now consider the second letter of the first row which is 'O'. We need to see if any of the above 'E' words have a second letter that, when combined with 'O', can start a 3-letter word for the second column.*`
+
+`*For example if we take "EAT". The second letter is 'A'. Can 'OA...' be the start of a 3-letter word? OAT, OAR, OAK, OAF... "OAR" is a valid word.*`
+
+`*Let's try with "EAT" as the second row.*`
+
+`*T O P E A T ? ? ?*`
+
+`*Now the third row needs to start with 'P', and the second letter needs to form a 3-letter word with 'O' from the first row and 'A' from the second row in the second column. So, we are looking for a 3-letter word starting with 'P' where its second letter, combined with 'O' and 'A' above it, makes a valid 3-letter word for the second column.*`
+
+`*Let's think of 3-letter words starting with 'P'. "POT", "PUT", "PLY", "POP", "PUN", "PUB", "PAD", "PAL", "PAN", "PAR", "PAS", "PAT", "PAW", "PAY", "PEA", "PEG", "PEN", "PEP", "PET", "PEW", "PHI", "PIG", "PIN", "PIP", "PIT", "PIX", "POD", "POH", "POW", "PRO", "PRY", "PSI", "PST", "PUG", "PUL", "PUM", "PUP", "PUR", "PUS", "PUT", "PUY", "PYA", "PYE", "PYX"...*`
+
+`*Now, we are interested in the second letter and how it works with 'O' and 'A' above it. In the second column, we have letters O, A, and we need the third letter from the third row's second letter to form a word. We need to see if for any of these 'P' words, the second letter combined with 'OA' could form a 3-letter word in the second column.*`
+
+`*Let's try "PAT". Second letter is 'A'. Second column will be O, A, A. "OAA" - not a word. No good.*`
+
+`*Let's try "POP". Second letter 'O'. Second column is O, A, O. "OAO" - no word.*`
+
+`*Let's try "POT". Second letter 'O'. Second column is O, A, O. "OAO" - no word.*`
+
+`*Let's try "PUB". Second letter 'U'. Second column is O, A, U. "OAU" - no word.*`
+
+`*Let's try "PAD". Second letter 'A'. Second column is O, A, A. "OAA" - no word.*`
+
+`*This approach seems to require lots of back and forth. Let's think of a different first row. Maybe something with a common middle vowel. "SUN"?*`
+
+`*S U N ? ? ? ? ? ?*`
+
+`*First column starts with 'S'. Let's consider "SOW".*`
+
+`*S O W U ? ? N ? ?*`
+
+`*Now the second row needs to start with 'U'. And the second column needs to start with 'O'. Let's think of a 3-letter word starting with 'U' and its second letter forming a word starting with 'O'. How about "USE"? Second letter 'S'. Second column starts with 'O', second letter 'S'. "OS..." word? "OLD", "OAK", "ONE", "OFF", "OPT"... "OLD" is a word.*`
+
+`*Let's try "USE" as the second row.*`
+
+`*S O W U S E N ? ?*`
+
+`*Third row starts with 'N'. Second letter needs to form a 3-letter word with 'OW' above it in the second column. Third letter needs to form a 3-letter word with 'WE' above it in the third column.*`
+
+`*Let's think of 3-letter words starting with 'N' and second letter makes sense for second column's 'OW'. Maybe "NOW"? Second letter 'O'. Second column now will be O, S, O. "OSO" - no word.*`
+
+`*Let's try again word starting with 'N', second letter should work with 'OW'. "NET"? Second letter 'E'. Second column O, S, E. "OSE" - no word.*`
+
+`*Let's try again. "NAB"? Second letter 'A'. Second column O, S, A. "OSA" - no word.*`
+
+`*Let's try "NIP"? Second letter 'I'. Second column O, S, I. "OSI" - no word.*`
+
+`*Let's rethink the first row again. "CAT"?*`
+
+`*C A T ? ? ? ? ? ?*`
+
+`*First column starts with 'C'. "COW"?*`
+
+`*C O W A ? ? T ? ?*`
+
+`*Second row starts with 'A'. Second column starts with 'O'. 3-letter word starting with 'A' whose second letter starts a 3-letter word with 'O'. "AGE"? Second letter 'G'. Second column O, G. "OG..." word? "OLD", "OGRE", "OGLE", "OGEE"... "OLD" is good.*`
+
+`*Let's try "AGE" as second row.*`
+
+`*C O W A G E T ? ?*`
+
+`*Third row starts with 'T'. Second letter needs to form a word with 'OW' and 'GE'. Third letter needs to form a word with 'WE'.*`
+
+`*Let's think of 3-letter words starting with 'T', second letter can work with 'OW'. "TOE"? Second letter 'O'. Second column is O, G, O. "OGO" - no word.*`
+
+`*Let's try "TEN". Second letter 'E'. Second column is O, G, E. "OGE" - no word.*`
+
+`*Let's try "TAP". Second letter 'A'. Second column O, G, A. "OGA" - no word.*`
+
+`*Let's try "TAW". Second letter 'A'. Second column O, G, A. "OGA" - no word.*`
+
+`*Let's try "TAB". Second letter 'A'. Second column O, G, A. "OGA" - no word.*`
+
+`*Let's try "TAR". Second letter 'A'. Second column O, G, A. "OGA" - no word.*`
+
+`*Let's try "TAX". Second letter 'A'. Second column O, G, A. "OGA" - no word.*`
+
+`*Let's try "TAG". Second letter 'A'. Second column O, G, A. "OGA" - no word.*`
+
+`*It is proving harder than it initially seemed even for 3x3! Let's try simpler words again. "EAT" as first word?*`
+
+`*E A T ? ? ? ? ? ?*`
+
+`*First column start 'E'. "EAR"?*`
+
+`*E A T A ? ? T ? ?*`
+
+`*Second row starting with 'A'. Second column starting with 'A'. "APE"? Second letter 'P'. Second column A, P. "AP..." word? "APT", "APE", "APP", "AMP", "API", "APO", "APS"... "APE" itself is there.*`
+
+`*Let's use "APE" as second row.*`
+
+`*E A T A P E T ? ?*`
+
+`*Third row starts with 'T'. Second column 'A', 'P'. Third column 'T', 'E'. Need a word starting with 'T', second letter works with 'AP', third letter works with 'TE'. "TEA"? Second letter 'E'. Second column A, P, E. "APE" is a word! Third letter 'A'. Third column T, E, A. "TEA" is a word!*`
+
+`*Let's check if the columns and rows are valid.*`
+
+`*Rows:*`
+
+1. `*EAT - valid*`
+2. `*APE - valid*`
+3. `*TEA - valid*`
+
+`*Columns:*`
+
+1. `*EAT - valid*`
+2. `*APT - valid ? (Apt is a word!)*`
+3. `*TEA - valid*`
+
+`*Let's verify second column "APT". First letter 'A', second 'P', third 'T'. A-P-T. Yes "APT" is a valid word!*`
+
+`*Therefore, we found a 3x3 word square.*`
+
+`*E A T A P E T E A*`
+
+`*All words are common and meaningful.
