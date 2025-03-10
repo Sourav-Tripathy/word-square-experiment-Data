@@ -1,2 +1,2 @@
 # word-square-experiment-Data
-This repository contains images and reasoning texts of models when i gave them a prompt to build word square.
+This repository contains images and reasoning texts of LLMs when i gave them a prompt to build word square.There are three files named according to the grid sizes of word sqaure asked to build and inside them you can find individual models data...ChatGpt has very less reasonings hence its reasoning text is in the photo itself in cases.Claude has no reasonings because i tested only with 3.7 Sonnet and it had no thinking tab in free version.
